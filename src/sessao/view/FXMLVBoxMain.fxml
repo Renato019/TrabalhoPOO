@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sessao.controller.FXMLVBoxMainController">
+   <children>
+      <MenuBar prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cadastros">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Clientes" />
+                  <MenuItem mnemonicParsing="false" text="Fotógrafos" />
+                  <MenuItem mnemonicParsing="false" text="Pacotes" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Processos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Agendamentos" />
+                  <MenuItem mnemonicParsing="false" text="Comparecimentos" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Relatórios">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ranking Fotógrafos com mais Sessões" />
+                  <MenuItem mnemonicParsing="false" text="Ranking Clientes que mais gastaram" />
+                  <MenuItem mnemonicParsing="false" text="Sessões por tipo de Serviço" />
+                  <MenuItem mnemonicParsing="false" text="Clientes que receberam Sessões Gratuitas" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Gráficos">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Total de agendamentos por mês" />
+                  <MenuItem mnemonicParsing="false" text="Comparecimentos por Pacote (mês)" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>

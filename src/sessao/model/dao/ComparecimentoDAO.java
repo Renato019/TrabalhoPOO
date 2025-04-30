@@ -5,10 +5,8 @@
  */
 package sessao.model.dao;
 
-/**
- *
- * @author renat
- */
-public class Comparecimento {
+
+
+public class ComparecimentoDAO{
     
 }

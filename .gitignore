@@ -1,0 +1,39 @@
+# Compiled class files
+*.class
+
+# Build and dist folders (NetBeans)
+build/
+dist/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# NetBeans project-specific files
+nbproject/private/
+.nb-gradle/
+
+# Maven (if used)
+target/
+
+# Gradle (if used)
+.gradle/
+build/
+
+# IDE settings
+*.iml
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# JavaFX cache (optional)
+*.cache
